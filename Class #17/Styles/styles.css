@@ -1,0 +1,56 @@
+/* Common Shared Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+a ,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul ,li{
+    list-style-type: none;
+}
+/* main section styles */
+#mainPart{
+    padding: 25px;
+    background: teal;
+    height: 500px;
+}
+button{
+    padding: 10px 25px;
+    background: goldenrod;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.box{
+    background: tomato;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+.boxTwo{
+    background: rgb(214, 161, 4);
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+/* Countdown Section styles */
+#countPart{
+    padding: 25px;
+    background: rgb(232, 56, 108);
+}
+.countdownItem{
+    padding: 25px;
+    border-radius: 10px;
+    background: yellowgreen;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+h2,h3{
+    font-size: 20px;
+}
